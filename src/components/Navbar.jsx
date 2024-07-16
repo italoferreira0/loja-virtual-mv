@@ -11,10 +11,7 @@ const Navbar = () => {
     return (
         <header>
             <div className={`topnav${isOpen ? ' responsive' : ''}`} id="myTopnav">
-                <div className='logoempresa'>
-                    <h1 className="titleh1">MARCENARIA</h1>
-                    <h1 className="titleh2">PAI <samp id="spam1">&</samp>FILHO</h1>
-                </div>
+                <h1 className="titleh1">MARCENARIA</h1>
                 <a href="/">HOME</a>
                 <a href="/Empresa">EMPRESA</a>
                 <a href="/Contato">CONTATO</a>
