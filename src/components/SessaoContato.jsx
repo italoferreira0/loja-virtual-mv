@@ -1,6 +1,6 @@
 import React from "react";
 import '../components/SessaoContato.css'
-// import WhatsappQRCode from "../Components/WhatsappQRcode.js";
+import WhatsappQRCode from "./WhatsappQRcode";
 
 function SessaoContato() {
     return (
@@ -16,7 +16,7 @@ function SessaoContato() {
                     <p>E-mail: test@moveis.gmail.com</p>
                 </div> 
                 <div className="qr-code">
-                    {/* <WhatsappQRCode id="whatsapp" phoneNumber="55839961511570" /> */}
+                    <WhatsappQRCode id="whatsapp" phoneNumber="55839961511570" />
                 </div>
             </div>
         </div>
