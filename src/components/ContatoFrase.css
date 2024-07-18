@@ -1,0 +1,22 @@
+
+.contato-frase {
+    justify-content: center;
+    gap: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #2C2C3C;
+
+}
+.contato-frase-sub{
+    padding: 40px;
+}
+.contato-frase-sub h1{
+    max-width: 1300px;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    text-align: justify;
+    color: white;
+} 
+.contato-frase-sub hr{ 
+    color: white;
+}
