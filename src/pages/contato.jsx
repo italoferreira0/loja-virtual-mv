@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "../components/Navbar"
 import SessaoContato from '../components/SessaoContato';
 import Localizacao from '../components/Localizacao';
+import Footer from '../components/Footer';
 
 function Contato() {
   return (
@@ -9,7 +10,7 @@ function Contato() {
       <Navbar/>
       <SessaoContato/>
       <Localizacao/>
-
+      <Footer/>
     </>
   );
 }
