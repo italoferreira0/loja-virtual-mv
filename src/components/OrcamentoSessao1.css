@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+ 
+ 
+}
+.texto-descricao {
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+.text-desc {
+    max-width: 1400px;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 20px; 
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+}
+.text-desc h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.text-desc hr{
+    width: 100%;
+    color: rgb(41, 41, 41);
+    
+}
+.text-detalhe{
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+
+}
+/* Ajuste para dispositivos com tela até 800px */
+@media screen and (max-width: 800px) {
+    .text-desc{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .text-desc  h1{
+        margin-top: 20px;
+        margin-bottom: -19px;
+        margin-left: 5px;
+        font-size: 24px;
+        text-align: left;
+    }
+    .text-desc p{
+        margin-top: 20px;
+    }
+    .text-desc hr{
+        margin-top: 30px
+    }
+}
+/* Ajuste para dispositivos com tela até 700px */
+@media screen and (max-width: 700px) {
+    .text-desc{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .text-desc h1{
+        margin-top: 20px;
+        margin-bottom: -19px;
+        margin-left: 5px;
+        font-size: 24px;
+        text-align: left;
+    }
+    .text-desc p{
+        margin-top: 20px;
+    }
+    .text-desc hr{
+        margin-top: 30px
+    }
+}
+@media screen and (max-width: 300px) {
+    .text-desc h1{
+        margin-top: 20px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        font-size: 18px;
+        text-align: left;
+        letter-spacing: -1px; 
+    }
+    .text-desc p{
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+}

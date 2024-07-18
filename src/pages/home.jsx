@@ -1,12 +1,23 @@
 import React from 'react';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
+import Carousel from '../components/Carousel';
+import Sessao1 from '../components/Sessao1';
+import Missao from '../components/Missao';
+import Sessao2 from '../components/Sessao2';
+import Detalhes from '../components/Detalhes';
+import Footer from '../components/Footer';
 
 
 function Home() {
   return (
     <>
       <Navbar/>
-      <h1>Olá eu sou o home do Site</h1>
+      <Carousel/>
+      <Sessao1/>
+      <Missao/>
+      <Sessao2/> 
+      <Detalhes/>
+      <Footer/>
     </>
   );
 }
