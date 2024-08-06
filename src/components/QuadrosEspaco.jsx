@@ -2,7 +2,6 @@ import React from "react";
 import './QuadrosEspaco.css';
 import Rectangle1 from '../Assets/Rectangle1.png';
 import Rectangle2 from '../Assets/Rectangle2.png';
-import Rectangle3 from '../Assets/Rectangle3.png';
 import Banheiro024 from '../Assets/Banheiro024.avif'
 import Cozinha0b4 from '../Assets/Cozinha0b4.avif'
 
