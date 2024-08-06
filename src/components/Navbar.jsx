@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'; 
+import logoempresa1x from '../Assets/logoempresa1x.svg'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,12 +12,13 @@ const Navbar = () => {
     return (
         <header>
             <div className={`topnav${isOpen ? ' responsive' : ''}`} id="myTopnav">
-                <h1 className="titleh1">MARCENARIA</h1>
-                <a href="/">HOME</a>
-                <a href="/Empresa">EMPRESA</a>
-                <a href="/Contato">CONTATO</a>
-                <a href="/Portfolio">PORTFOLIO</a>
-                <a href="/Orcamento"  id='item-last'>ORÇAMENTO</a>
+                <img 
+                 className="logo-empresa" src={logoempresa1x} alt="lodo da empresa" />
+                <a className='item-1' href="/">HOME</a>
+                <a className='item-2' href="/Empresa">EMPRESA</a>
+                <a className='item-3' href="/Contato">CONTATO</a>
+                <a className='item-4' href="/Portfolio">PORTFOLIO</a>
+                <a  className='item-last' href="/Orcamento">ORÇAMENTO</a>
                 <a href="javascript:void(0);" className="icon" onClick={toggleMenu}>
                     <span>&#9776;</span>
                 </a>

@@ -1,131 +1,91 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
+/* CSS Geral */
+.topnav {
+  background-color: #323030;
+  overflow: hidden;
+  text-align: right;
+  padding: 0px;
+}
+.logo-empresa{
+  float: left;
+  display: flex;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  padding-top: 35px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.item-last {
+  margin-right: 50px; /* Adiciona margem direita para separar o último link */
+}
+
+.topnav a:hover {
+  border-bottom: 2px solid white;
+}
+
+.topnav a.icon {
+  display: none;
+}
+
+/* CSS Responsivo */
+@media screen and (max-width: 768px) {
   .topnav {
-    background-color: rgb(0, 0, 0);
-    overflow: hidden;
-    text-align: right; /* Alinha os itens à direita */
-    padding: 10px;
+    text-align: center; 
   }
-  
-  /* Style the links inside the navigation bar */
-  .topnav h1 {
+  .logo-empresa{
     float: left;
     display: flex;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 23px;
-    margin-left: 45px;
-  }
-  .topnav.responsive h1 {
-    float: none;
-    text-align: center;
-    width: 100%; /* Define a largura total */
-  }
-  #spam1 {
-    color: white;
-  }
-  #spam2 {
-    color: #D3A01E;
+    padding: 15px;
+    margin-left: 0px;
   }
   .topnav a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 10px; /* Adiciona espaçamento vertical e horizontal */
-    text-decoration: none;
-    font-size: 17px;
+    display: none; /* Esconde os links por padrão */
+  
   }
-  .last4 {
-    margin-right: 20px; /* Adiciona margem direita para separar o último link */
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    
-    color: rgb(136, 136, 35);
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: #D3A01E;
-    color: black;
-    border-radius: 6px;
-    margin-right: 30px;
-  }
-  
-  /* Style the hamburger menu icon */
-  .topnav a.icon {
-    display: none;
-  }
-  /* Remova a definição de position: absolute para o ícone no menu responsivo */
-  .topnav.responsive a.icon {
-    /* position: absolute; Remova esta linha */
-    right: 15px; /* Ajuste o recuo do ícone do lado direito */
-    top: 15px; /* Ajuste o recuo do ícone do topo */
-  }
-  #item-last{
-    margin-right: 35px;
-  }
-  
-  /* Style the hamburger menu icon for smaller screens */
-  
-  @media screen and (max-width: 768px) {
-    /* Show the hamburger menu icon */
-    .topnav h1 {
-        display: flex;
-        text-align: center;
-        padding: 20px 0;
-        font-size: 28px;
-        margin-left: 10px;
-    }
-    .topnav a.icon {
-        float: none; /* Remova o float */
-        display: block;
-        position: absolute; /* Defina a posição como absoluta */
-        right: 15px; /* Ajuste o recuo do ícone do lado direito */
-        top: 15px; /* Ajuste o recuo do ícone do topo */
-        font-size: 35px;
-    }
-  
-    .topnav a:not(.icon) {
-        display: none;
-    }
-    .topnav a.first-item{
-        background-color: #D3A01E;
-        display: none;
-        width: 100px;
-    }  
-  }
-  
-  /* Add responsiveness to the navigation menu (show/hide) */
-  .topnav.responsive {
-    position: relative;
-  }
-  
-  
-  /* Remova a definição de position: absolute para o ícone no menu responsivo */
-  .topnav.responsive a.icon {
-    /* position: absolute; Remova esta linha */
-    right: 15px; /* Ajuste o recuo do ícone do lado direito */
-    top: 15px; /* Ajuste o recuo do ícone do topo */
-  }
-  
-  
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .topnav.responsive a:last-child {
+  .topnav a:hover{
     border-bottom: none;
+   
   }
-  
+
+  .item-1{
+    margin-top: 70px;
+  }
+  .item-last{
+    margin-right: 0;
+  }
+  /* Aplica o efeito hover a todos os itens */
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover,
+.item-last:hover {
+  background-color: #575555;
+}
+
+  .topnav.responsive a {
+    display: block; /* Exibe os links quando o menu está em modo responsivo */
+  }
+  .topnav a.icon {
+    display: block; /* Mostra o ícone de hambúrguer */
+    float: none; /* Remove o float */
+    position: absolute; /* Define a posição como absoluta */
+    right: 25px; /* Ajuste o recuo do ícone do lado direito */
+    top: -15px; /* Ajuste o recuo do ícone do topo */
+    font-size: 40px;
+  }
+  .topnav a{
+    font-family: 35px;
+  }
+
+}
 
 
 
