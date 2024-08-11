@@ -7,7 +7,7 @@ function OrcamentoSessao2() {
     
     <div className="container-forms">
         <div className="formulario">
-        <h1>Preencha com seus dados</h1>
+        <h1 className="frase-orientacao">Preencha os dados com atenção</h1>
           <form action="enviar_email.php" method="post">
             <div id="text-anexar">
               <label htmlFor="anexar-projeto">Anexar seu projeto</label>

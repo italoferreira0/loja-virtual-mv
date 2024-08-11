@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import ImgBackground from '../components/ImgBackground';
 
 
 function Portfolio() {
   return (
     <>
       <Navbar/>
-      <h1>Página de Portfolio</h1>
+      <ImgBackground title={'Protifolio'}/>
+   
     </>
   );
 }
